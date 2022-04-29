@@ -5,6 +5,7 @@
     <string name="app_password_hint">Password</string>
 
     <!-- login -->
+    <string name="login_artwork_description">Login Artwork</string>
     <string name="login_welcome">Welcome back!</string>
     <string name="login_under_welcome_label">Log in to your existing account</string>
     <string name="login_forgot_password">Forgot Password?</string>
@@ -14,4 +15,8 @@
     <string name="login_facebook_label">Facebook</string>
     <string name="login_has_no_account_label">Don\'t have an account?</string>
     <string name="login_signup_label">Sign Up</string>
+    <string name="login_invalid_email">Email is not valid</string>
+    <string name="login_successful">Login successful</string>
+    <string name="login_enter_valid_email">Enter a valid Email</string>
+    <string name="login_enter_password">Enter a password</string>
 </resources>
