@@ -54,7 +54,7 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/app_email_hint"
+                    android:hint="@string/input_email_hint"
                     android:textColorHint="@color/gray"
                     app:boxStrokeColor="@color/gray"
                     app:boxStrokeWidthFocused="2dp"
@@ -64,10 +64,10 @@
                     android:layout_marginBottom="6dp"
                     app:startIconDrawable="@drawable/email_filled"
                     app:startIconTint="@color/gray"
-                    app:boxCornerRadiusTopStart="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusTopEnd="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusBottomStart="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusBottomEnd="@dimen/login_input_corner_radius">
+                    app:boxCornerRadiusTopStart="@dimen/input_corner_radius"
+                    app:boxCornerRadiusTopEnd="@dimen/input_corner_radius"
+                    app:boxCornerRadiusBottomStart="@dimen/input_corner_radius"
+                    app:boxCornerRadiusBottomEnd="@dimen/input_corner_radius">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txtEmail"
@@ -83,17 +83,17 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/app_password_hint"
+                    android:hint="@string/input_password_hint"
                     android:textColorHint="@color/gray"
                     app:boxStrokeColor="@color/gray"
                     app:boxStrokeWidthFocused="2dp"
                     app:hintTextColor="@color/gray"
                     app:startIconDrawable="@drawable/password"
                     app:startIconTint="@color/gray"
-                    app:boxCornerRadiusTopStart="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusTopEnd="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusBottomStart="@dimen/login_input_corner_radius"
-                    app:boxCornerRadiusBottomEnd="@dimen/login_input_corner_radius">
+                    app:boxCornerRadiusTopStart="@dimen/input_corner_radius"
+                    app:boxCornerRadiusTopEnd="@dimen/input_corner_radius"
+                    app:boxCornerRadiusBottomStart="@dimen/input_corner_radius"
+                    app:boxCornerRadiusBottomEnd="@dimen/input_corner_radius">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"

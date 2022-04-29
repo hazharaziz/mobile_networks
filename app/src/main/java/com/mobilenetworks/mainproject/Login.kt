@@ -1,5 +1,6 @@
 package com.mobilenetworks.mainproject
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -24,7 +25,7 @@ class Login : AppCompatActivity() {
             if (InputValidator.isValidEmail(it.toString())) {
                 binding.emailWrapper.isErrorEnabled = false
             } else {
-                binding.emailWrapper.error = getString(R.string.login_invalid_email)
+                binding.emailWrapper.error = getString(R.string.input_invalid_email)
             }
         }
 
@@ -36,8 +37,8 @@ class Login : AppCompatActivity() {
 
         binding.btnLogin.setOnClickListener {
             val loginSuccess = getString(R.string.login_successful)
-            val enterValidEmail = getString(R.string.login_enter_valid_email)
-            val enterPassword = getString(R.string.login_enter_password)
+            val enterValidEmail = getString(R.string.input_enter_email)
+            val enterPassword = getString(R.string.input_enter_password)
 
             if (binding.txtEmail.length() != 0 &&
                 InputValidator.isValidEmail(binding.emailWrapper.editText!!.text) &&
@@ -76,6 +77,11 @@ class Login : AppCompatActivity() {
                     _randomGenerator.nextInt(255)
                 )
             )
+        }
+
+        binding.btnSwitchToSignup.setOnClickListener {
+            val intent = Intent(this, Signup::class.java)
+            startActivity(intent)
         }
     }
 }
