@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:paddingHorizontal="20dp"
-    android:layout_marginTop="10pd"
+    android:layout_marginTop="10dp"
     android:layout_marginBottom="20dp"
     android:transitionName="transition_login"
     tools:context=".Login">
