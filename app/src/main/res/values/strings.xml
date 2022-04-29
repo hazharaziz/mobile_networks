@@ -1,3 +1,17 @@
 <resources>
+    <!-- app -->
     <string name="app_name">MainProject</string>
+    <string name="app_email_hint">Email</string>
+    <string name="app_password_hint">Password</string>
+
+    <!-- login -->
+    <string name="login_welcome">Welcome back!</string>
+    <string name="login_under_welcome_label">Log in to your existing account</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_btn_label">LOG IN</string>
+    <string name="login_connect_using_label">Or connect using</string>
+    <string name="login_google_label">Google</string>
+    <string name="login_facebook_label">Facebook</string>
+    <string name="login_has_no_account_label">Don\'t have an account?</string>
+    <string name="login_signup_label">Sign Up</string>
 </resources>
