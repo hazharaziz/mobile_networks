@@ -1,6 +1,6 @@
 package com.example.notesapp.interfaces
 
-import me.argraur.notes.observers.NoteObserver
+import com.example.notesapp.observers.NoteObserver
 
 /**
  * Observer manager

@@ -5,10 +5,10 @@ apply plugin: 'org.jetbrains.dokka'
 
 android {
     compileSdkVersion 32
-    buildToolsVersion "29.0.3"
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "me.argraur.notes"
+        applicationId "com.example.notesapp"
         minSdkVersion 27
         targetSdkVersion 32
         versionCode 3
